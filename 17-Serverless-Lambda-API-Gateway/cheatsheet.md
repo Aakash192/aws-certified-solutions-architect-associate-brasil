@@ -1,41 +1,41 @@
-﻿# Guia Rapido
+# Quick Guide
 
-## Tabela de decisao
+## Decision table
 
-| Sinal do enunciado | Quando usar | Quando evitar | Armadilha de prova |
+| Signal in the question | When to use | When to avoid | Exam trap |
 |---|---|---|---|
-| Baixa operacao manual | Servico gerenciado com automacao nativa | Solucao autogerenciada sem necessidade | Confundir controle total com melhor custo total |
-| Pico imprevisivel | Escala horizontal e desacoplamento | Capacidade fixa e ajuste manual | Dimensionar para media e falhar no pico |
-| Requisito de seguranca forte | Menor privilegio + criptografia + auditoria | Permissao ampla por conveniencia | Achar que criptografia sozinha resolve governanca |
-| Custo como restricao explicita | Escolha por perfil de consumo e acesso | Classe unica para todo dado | Reduzir custo sem validar impacto funcional |
+| Low manual operation | Managed service with native automation | Self-managed solution without need | Confusing full control with the best total cost |
+| Unpredictable spike | Horizontal scaling and decoupling | Fixed capacity and manual tuning | Sizing for the average and failing at the peak |
+| Strong security requirement | Least privilege + encryption + auditing | Broad permissions for convenience | Thinking encryption alone solves governance |
+| Cost as an explicit constraint | Choose by consumption and access profile | A single class for all data | Cutting cost without validating the functional impact |
 
-## Sinais de servico
+## Service signals
 
-- **Lambda**: priorize quando o cenario precisa de integracao nativa e menor carga operacional.
-- **API Gateway**: use quando houver necessidade de elasticidade controlada e comportamento previsivel em pico.
+- **Lambda**: prioritize it when the scenario needs native integration and a lower operational load.
+- **API Gateway**: use it when there is a need for controlled elasticity and predictable behavior at peak.
 
-## Quando usar este modulo na revisao
+## When to use this module in your review
 
-- Antes de simulados de arquitetura com foco em trade-offs.
-- Quando houver erro recorrente de escolha entre duas alternativas parecidas.
-- Na reta final para calibrar criterio de eliminacao de opcoes.
+- Before architecture practice exams focused on trade-offs.
+- When you keep making the same mistake choosing between two similar options.
+- In the final stretch to calibrate your criteria for eliminating options.
 
-## Armadilhas recorrentes
+## Recurring traps
 
-- Resolver disponibilidade com recurso de performance.
-- Trocar simplicidade por arquitetura superdimensionada.
-- Ignorar observabilidade ao definir desenho final.
+- Solving availability with a performance feature.
+- Trading simplicity for an oversized architecture.
+- Ignoring observability when defining the final design.
 ---
 
-## ☁️ Acompanhe a CloudStudy
+## ☁️ Follow CloudStudy
 
-Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+We are building a platform to help Brazilians study AWS in a more practical, organized and accessible way.
 
-Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+Follow CloudStudy for new materials, updates and content about AWS certifications:
 
 - Instagram: https://www.instagram.com/cloudstudy.ai/
 - LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
 
 ---
 
-> Quando quiser levar este tema para cenarios de dados, lakehouse e projetos hands-on, use como proximo passo: [Engenharia de Dados na AWS](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9).
+> When you want to take this topic into data scenarios, lakehouses and hands-on projects, use this as your next step: [Data Engineering on AWS](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9).

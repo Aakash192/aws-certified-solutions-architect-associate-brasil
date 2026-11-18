@@ -1,28 +1,27 @@
 ---
 name: Bug report
-about: Relatar erro técnico ou de conteúdo
+about: Report a technical or content error
 labels: bug
 ---
 
-## Descrição do problema
-Descreva o erro de forma objetiva.
+## Problem description
+Describe the error objectively.
 
-## Arquivos afetados
-Liste os links/paths dos arquivos impactados.
+## Affected files
+List the links/paths of the affected files.
 
-## Comportamento atual
-Explique o que está incorreto hoje.
+## Current behavior
+Explain what is incorrect today.
 
-## Comportamento esperado
-Explique como deveria estar.
+## Expected behavior
+Explain how it should be.
 
-## Contexto adicional
-Inclua evidências, referências oficiais da AWS e capturas quando necessário.
+## Additional context
+Include evidence, official AWS references and screenshots when needed.
 
-## Proposta de correção
-Descreva a alteração sugerida (ou passos para reproduzir/corrigir).
+## Proposed fix
+Describe the suggested change (or the steps to reproduce/fix).
 
 ---
 
-## Proximos passos
-
+## Next steps

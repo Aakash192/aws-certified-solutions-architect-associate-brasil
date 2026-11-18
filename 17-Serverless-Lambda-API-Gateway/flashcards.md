@@ -1,113 +1,113 @@
-﻿# Cartoes de Revisao
+# Review Cards
 
 ## Card 01
 
-**Pergunta:** Qual e o foco central deste modulo?
+**Question:** What is the central focus of this module?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>Show answer</strong></summary>
 
-**Resposta:**
-Dominar decisoes de Serverless orientadas por cenarios da prova SAA-C03.
+**Answer:**
+Mastering Serverless decisions driven by SAA-C03 exam scenarios.
 
 </details>
 
 ## Card 02
 
-**Pergunta:** Qual erro recorrente neste tema?
+**Question:** What is a recurring mistake in this topic?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>Show answer</strong></summary>
 
-**Resposta:**
-Aplicar resposta generica sem validar sinais especificos de serverless no enunciado.
+**Answer:**
+Applying a generic answer without checking the serverless-specific signals in the question.
 
 </details>
 
 ## Card 03
 
-**Pergunta:** Como identificar a melhor alternativa?
+**Question:** How do you identify the best option?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>Show answer</strong></summary>
 
-**Resposta:**
-Priorizar requisito dominante e servicos que cobrem Lambda e API Gateway com menor operacao.
+**Answer:**
+Prioritize the dominant requirement and the services that cover Lambda and API Gateway with the least operation.
 
 </details>
 
 ## Card 04
 
-**Pergunta:** Qual trade-off costuma aparecer?
+**Question:** Which trade-off usually shows up?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>Show answer</strong></summary>
 
-**Resposta:**
-Equilibrar Lambda com custo, desempenho e simplicidade operacional.
+**Answer:**
+Balancing Lambda with cost, performance and operational simplicity.
 
 </details>
 
 ## Card 05
 
-**Pergunta:** Que sinal de arquitetura madura aparece em questoes?
+**Question:** What sign of a mature architecture shows up in questions?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>Show answer</strong></summary>
 
-**Resposta:**
-Uso intencional de API Gateway com observabilidade para reduzir risco operacional.
+**Answer:**
+Intentional use of API Gateway with observability to reduce operational risk.
 
 </details>
 
 ## Card 06
 
-**Pergunta:** Como evitar armadilha de overengineering?
+**Question:** How do you avoid the overengineering trap?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>Show answer</strong></summary>
 
-**Resposta:**
-Evitar componentes extras quando Step Functions ou cold start ja resolve o requisito.
+**Answer:**
+Avoid extra components when Step Functions or cold start handling already solves the requirement.
 
 </details>
 
 ## Card 07
 
-**Pergunta:** Qual ponto revisar antes do simulado?
+**Question:** What should you review before the practice exam?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>Show answer</strong></summary>
 
-**Resposta:**
-Diferencas praticas entre cold start e throttling.
+**Answer:**
+The practical differences between cold starts and throttling.
 
 </details>
 
 ## Card 08
 
-**Pergunta:** Qual fechamento eficiente de revisao?
+**Question:** What is an efficient way to close a review?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>Show answer</strong></summary>
 
-**Resposta:**
-Converter erros deste modulo em regras objetivas de decisao sobre serverless.
+**Answer:**
+Turn the mistakes from this module into objective decision rules about serverless.
 
 </details>
 
 
 ---
 
-## ☁️ Acompanhe a CloudStudy
+## ☁️ Follow CloudStudy
 
-Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+We are building a platform to help Brazilians study AWS in a more practical, organized and accessible way.
 
-Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+Follow CloudStudy for new materials, updates and content about AWS certifications:
 
 - Instagram: https://www.instagram.com/cloudstudy.ai/
 - LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
 
 ---
 
-> Este modulo tambem conversa com projetos de dados na nuvem; para praticar esse lado, veja a trilha complementar: [Engenharia de Dados na AWS](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9).
+> This module also connects with cloud data projects; to practice that side, see the complementary track: [Data Engineering on AWS](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9).
