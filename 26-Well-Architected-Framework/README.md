@@ -1,59 +1,59 @@
-# Well Architected Framework
+# Well-Architected Framework
 
-## Visao Geral
+## Overview
 
-Este modulo cobre **Decisoes de arquitetura guiadas por pilares AWS** com foco no tipo de decisao que aparece no SAA-C03. A ideia central e transformar requisitos de negocio em escolhas tecnicas objetivas, equilibrando resiliencia, desempenho, seguranca e custo. Em prova, o diferencial nao e decorar servico isolado: e identificar qual restricao do cenario pesa mais e escolher o padrao que reduz risco operacional.
+This module covers **Architecture decisions guided by the AWS pillars** with a focus on the kind of decision that shows up on the SAA-C03. The central idea is to turn business requirements into objective technical choices, balancing resilience, performance, security and cost. On the exam, the differentiator is not memorizing a service in isolation: it is identifying which constraint in the scenario weighs the most and choosing the pattern that reduces operational risk.
 
-## Conceitos-Chave
+## Key Concepts
 
-- Papel dos servicos: Well-Architected Tool, Trusted Advisor, CloudWatch.
-- Priorizacao por requisito dominante (latencia, disponibilidade, conformidade ou custo).
-- Integracao entre servicos com desacoplamento e observabilidade minima.
-- Escolha de arquitetura com menor complexidade viavel para o contexto.
+- Role of the services: Well-Architected Tool, Trusted Advisor, CloudWatch.
+- Prioritization by the dominant requirement (latency, availability, compliance or cost).
+- Integration between services with decoupling and minimal observability.
+- Choosing the architecture with the lowest viable complexity for the context.
 
-## Relevancia para o Exame
+## Exam Relevance
 
-No SAA-C03, este dominio costuma aparecer em perguntas com duas alternativas tecnicamente possiveis. O desempate normalmente vem de detalhes como: modelo de consistencia, estrategia de failover, custo de operacao recorrente, impacto de throughput e nivel de automacao exigido. Por isso, estudar este modulo significa treinar criterio de escolha, nao apenas nomenclatura.
+On the SAA-C03, this domain usually shows up in questions with two technically possible options. The tie-breaker normally comes from details such as: consistency model, failover strategy, recurring operating cost, throughput impact and the level of automation required. That is why studying this module means training your selection criteria, not just the naming.
 
-## Sinais Praticos (3 a 5)
+## Practical Signals (3 to 5)
 
-1. Quando o enunciado pede resposta elastica com pouca operacao manual, privilegie servicos gerenciados.
-2. Quando houver dependencia entre componentes, valide se existe desacoplamento para absorver pico e falha parcial.
-3. Quando houver restricao de seguranca, confirme criptografia em transito/repouso e menor privilegio.
-4. Se o custo for parte do requisito, compare classes de consumo, modo de capacidade e padrao de acesso.
-5. Se o cenario for global, valide rota de trafego, latencia e estrategia de distribuicao.
+1. When the question asks for an elastic response with little manual operation, favor managed services.
+2. When there are dependencies between components, check that there is decoupling to absorb spikes and partial failures.
+3. When there is a security constraint, confirm encryption in transit/at rest and least privilege.
+4. If cost is part of the requirement, compare consumption classes, capacity mode and access pattern.
+5. If the scenario is global, validate traffic routing, latency and the distribution strategy.
 
-## Armadilhas Comuns
+## Common Traps
 
-- Escolher recurso premium sem necessidade real do cenario.
-- Confundir recurso de alta disponibilidade com recurso de escala de leitura.
-- Ignorar limites de servico e comportamento em falha.
-- Resolver requisito de seguranca com ferramenta inadequada para ciclo de vida do segredo.
+- Choosing a premium feature without a real need in the scenario.
+- Confusing a high availability feature with a read scaling feature.
+- Ignoring service limits and failure behavior.
+- Solving a security requirement with a tool that is wrong for the secret's lifecycle.
 
-## Proximo Passo de Revisao
+## Next Review Step
 
-1. Revise o cheatsheet.md para consolidar sinais de decisao.
-2. Resolva questoes.md sem consulta para testar julgamento tecnico.
-3. Use flashcards.md em revisao curta diaria para fixar diferencas criticas.
+1. Review cheatsheet.md to consolidate the decision signals.
+2. Answer questions.md without looking anything up to test your technical judgment.
+3. Use flashcards.md in a short daily review to lock in the critical differences.
 
-## Estudos Complementares
+## Complementary Studies
 
-Para reforco de fundamentos AWS antes de aprofundar cenarios arquiteturais:
+To strengthen AWS fundamentals before going deeper into architectural scenarios:
 https://github.com/Thiago-code-lab/aws-certified-cloud-practitioner-brasil
 
-Para conectar arquitetura com IA generativa e Bedrock em trilha complementar:
+To connect architecture with generative AI and Bedrock in a complementary track:
 https://github.com/Thiago-code-lab/aws-certified-ai-practitioner-brasil
 ---
 
-## ☁️ Acompanhe a CloudStudy
+## ☁️ Follow CloudStudy
 
-Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+We are building a platform to help Brazilians study AWS in a more practical, organized and accessible way.
 
-Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+Follow CloudStudy for new materials, updates and content about AWS certifications:
 
 - Instagram: https://www.instagram.com/cloudstudy.ai/
 - LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
 
 ---
 
-> Para consolidar arquitetura com projetos reais de dados na AWS, mantenha no radar a trilha complementar: [Engenharia de Dados na AWS](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9).
+> To consolidate architecture with real data projects on AWS, keep the complementary track on your radar: [Data Engineering on AWS](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9).
